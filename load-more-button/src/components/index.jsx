@@ -35,7 +35,7 @@ export default function LoadMoreData() {
     
    
      return(
-      <div className="load-more-container">
+      <div className="container">
         <div className="product-container">
          {
            products && products.length ? 
@@ -45,6 +45,9 @@ export default function LoadMoreData() {
             </div>)
            : null 
          }
+        </div>
+        <div className="button-container">
+         <button>Load More Items</button>
         </div>
       </div>
      )
