@@ -47,7 +47,9 @@ export default function LoadMoreData() {
          }
         </div>
         <div className="button-container">
-         <button>Load More Items</button>
+         <button onClick={()=> setCount(count +1)}>
+            Load More Items
+         </button>
         </div>
       </div>
      )
