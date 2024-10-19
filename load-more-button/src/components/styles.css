@@ -23,3 +23,7 @@
     height: 200px;
 } */
 
+.loading-container {
+    background-color: aqua;
+    color:black;
+}
